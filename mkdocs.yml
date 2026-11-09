@@ -1,23 +1,25 @@
-
 # Replace the text below to customize your site
-site_name: Fernando Collazo - UTEC & Fab Lab Barcelona & Fab Lab Esan
-site_description: Master in Design for Emergent Futures
+site_name: Fernando Collazo
+site_description: Documentación EFDI
 site_author: Fernando Collazo
 copyright: Copyleft 2024 "Fernando Collazo" - GNU Free Documentation License
 repo_name: "Name : Github Repo"
-site_url: https://nandocollazo03.github.io/fernando-collazo/
-repo_url: https://github.com/nandocollazo03/fernando-collazo
+site_url: https://mathira.github.io/efdi-template/
+repo_url: https://github.com/mathira/efdi-template
 
 nav:
   - Home: index.md
   - About: about/me.md
   - About sitio web: about sitio web/sitio web-mt01.md
   - Tecnología y Fabricación:
-      - Bloque 1 MT02-MT03: tecnicos/mt02-03.md
+      - MT01 — Introducción a herramientas digitales: tecnicos/mt01.md
+      - MT02 — Diseño 2D y modelado 3D: tecnicos/mt02.md
+      - MT03 — Corte láser controlado por computadora: tecnicos/mt03.md
+      - FP01 — Primera visita al Lab: tecnicos/fp01.md
   - Diseño:
-      - Bloque 1 MD01: diseno/md01.md
+      - MD01 - Proyecto y contexto: diseno/md01.md
   - Innovación:
-      - Bloque 1 MI01: innovacion/mi01.md
+      - MI01 - Innovación abierta y distribuida: innovacion/mi01.md
   - Proyecto Integrador:
       - Ideas Iniciales: proyecto/proyecto.md
   - Referencias:
@@ -41,8 +43,8 @@ theme:
   name: material
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: custom
-    accent: purple
+    primary: blue
+    accent: deep orange
   font:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
